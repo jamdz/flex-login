@@ -214,6 +214,15 @@ width: 17vw;
     }
 
 
+    *{
+
+        margin: 0;
+        padding: 0;
+        overflow-y: hidden;
+        
+        }
+
+
     .username{
 
 
