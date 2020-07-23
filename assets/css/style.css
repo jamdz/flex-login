@@ -225,9 +225,9 @@ width: 17vw;
 
     .username{
 
-
-        width: 175px;
+        width: 155px;
         height: 65px;
+    
     }
 
     .page-container {
@@ -282,14 +282,9 @@ width: 17vw;
     }
 
     .password{
+        width: 155px;
         height: 65px;
-        width: 175px;
         text-align: center;
-        border-radius: 20px;
-        border-top-color: transparent;
-        border-right-color: transparent;
-        border-left-color: transparent;
-        transition: .5s;}
 }
 
 
