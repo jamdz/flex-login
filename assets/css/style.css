@@ -227,7 +227,7 @@ width: 17vw;
     .username{
 
         width: 155px;
-        height: 65px;
+        height: 45px;
     
     }
 
@@ -239,7 +239,7 @@ width: 17vw;
 
     .login-form {
         padding-top: 8%;
-        padding-left: 10%;
+        /* padding-left: 10%; */
     }
 
     .login{
@@ -284,7 +284,7 @@ width: 17vw;
 
     .password{
         width: 155px;
-        height: 65px;
+        height: 45px;
         text-align: center;
 }
 
