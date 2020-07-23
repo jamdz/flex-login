@@ -263,8 +263,8 @@ width: 17vw;
         width: 145px;
         background-color: rgb(238, 101, 77);
         text-align: center;
-        width: 15vw;
-        height: 4vh;
+        width: 25vw;
+        height: 6vh;
         border-radius: 50%;
         border: 5px solid lightgrey;
         box-shadow: 4px 4px 4px 1px rgb(7, 7, 7);
@@ -275,10 +275,10 @@ width: 17vw;
     }
 
     .login-img h2{
-
-        font-size: 13px;
+        
+        font-size: 15px;
         position: relative;
-        bottom: 0.6rem;
+        bottom: 0.3rem;
 
     }
 
