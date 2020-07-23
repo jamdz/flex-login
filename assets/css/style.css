@@ -203,6 +203,41 @@ width: 17vw;
 
 }
 
+.signup h3{
+
+    color: white;
+    font-size: 19px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 20px;
+
+
+}
+
+.signup p{
+
+    color: white;
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.signup-btn{
+
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 3%;
+    border-radius: 25px;
+    width: 260px;
+    margin-top: 20px;
+    margin-left: 150px;
+  
+
+}
+
 
 @media screen and (max-width: 750px){
 
@@ -302,7 +337,7 @@ width: 17vw;
         .login-btn{
 
             padding: 10%;
-            width: 230px;
+            width: 200px;
 
         }
 }
