@@ -134,7 +134,7 @@ border-bottom-color: tomato;
 .login-btn{
 
     padding: 5%;
-    width: 130px;
+    width: 280px;
     font-size: 14px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(9, 9, 212);
@@ -302,6 +302,7 @@ width: 17vw;
         .login-btn{
 
             padding: 10%;
+            width: 230px;
 
         }
 }
