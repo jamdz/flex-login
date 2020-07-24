@@ -1,8 +1,18 @@
 .page-container{
 
-background: linear-gradient( to left, #285466,#5c2a4e);
 margin: 10%;
 height: 70vh;
+background-image: url("/assets/image/building1.jpg");
+
+}
+
+
+.buy-now-sticky{
+
+    padding: 3%;
+    width: 250px;
+    position: fixed;
+    top: 21px;
 
 }
 
@@ -23,7 +33,6 @@ body{
 
     background: linear-gradient( to left, #285466,#5c2a4e);
 
-
 }
 
 .page-login{
@@ -38,6 +47,7 @@ height: 115%;
 background-color: rgb(248, 247, 244);
 padding: 50px;
 width: 70%;
+height: 5£0.833px;
 border-top-left-radius: 25px;
 border-bottom-left-radius: 25px;
 box-shadow: 4px 4px 4px 4px black;
@@ -146,37 +156,6 @@ border-bottom-color: tomato;
 
 }
 
-/* .log-div{
-
-}
-
-.log-div-22{
-
- 
-
-
-}
-
-
-.log-div a{
-
-
-
-} */
-
-/* .checkbox{
-
-    display: flex;
-    
-    } */
-
-/* .log-check{
-
-    width: 140px;
-
-} */
-
-
 .login-btn:focus{
 
     background-color: rgb(238, 90, 36);
@@ -262,6 +241,7 @@ width: 17vw;
 
         width: 200px;
         height: 45px;
+        border: unset;
     
     }
 
@@ -273,29 +253,25 @@ width: 17vw;
 
     .page-container {
         background: linear-gradient( to left, #285466,#5c2a4e);
-        margin: 5%;
+        margin: 7%;
         height: 100%;
     }
 
     .login-form {
         padding-top: 8%;
-        padding-left: 10%;
+        padding-left: 4%;
+        padding-right: 4%;
+        margin: 0 20px 0 20px;
     }
 
+    
     .login{
 
-        background-color: rgb(248, 247, 244);
         padding: 30px;
         width: 550px;
-        height: 630px;
-        border-top-left-radius: 25px;
-        border-bottom-left-radius: 25px;
-        border-top-right-radius: 25px;
-        border-bottom-right-radius: 25px;
-        box-shadow: 4px 4px 4px 4px black;
+        height: max-content;
         
     }
-
     
     .login-img{
 
@@ -304,7 +280,7 @@ width: 17vw;
         background-color: rgb(238, 101, 77);
         text-align: center;
         width: 25vw;
-        height: 6vh;
+        
         border-radius: 50%;
         border: 5px solid lightgrey;
         box-shadow: 4px 4px 4px 1px rgb(7, 7, 7);
@@ -325,7 +301,18 @@ width: 17vw;
     .password{
         width: 200px;
         height: 45px;
-        text-align: center;}
+        text-align: center;
+        border: unset;
+    
+    }
+
+
+    .password:focus{
+
+        border-bottom: tomato;
+        transition: .5s;
+    }
+        
 
 
         .login-form p{
