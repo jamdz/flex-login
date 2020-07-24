@@ -3,38 +3,26 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     <body>
-        <div class="page-container">
-            <div class="page-login">
-                <div class="login">
-                    <div class="login-img"><h2>LOGO</h2></div>
-
-                        <form action="#" method="POST" class="login-form">
-                            <p>Username</p>
-                            <input type="text" placeholder="Enter Your Username" class="username"><br/>
-                            <p>Password</p>
-                            <input type="password" placeholder="Password" class="password"required><br/>
-                            <br/>
-                            <button class="login-btn">Login</button>
-                        </form><br>
-                        <input type="checkbox"/> Remember me <span class="check-a"><a href="#">Forgot Password</a></span>
-
+        <section class="page-container">
+            <div class="page">
+                <div class="login-page">
+                    <div class="login-image"><h2>LOGO</h2></div>
+                    <div class="login-form">
+                        <form action="#" method="POST" class="log-form">
+                            <p>Username</p><br/>
+                            <input class="log-username" type="text" placeholder="Username --or-- Email"/><br/><br/>
+                            <p>Password</p><br/>
+                            <input class="log-password" type="password" placeholder="Enter Password"/><br/><br/>
+                            <button class="log-btn">Login</button><br/><br/>
+                            <input type="checkbox" placeholder="Remember me"/>  Remember me -- OR -- <a href="#">Forgot Password?</a>
+                        </form>
                     </div>
-                <div class="signup">
-                    <div class="signing"><img src="./assets/image/remae11.png" class="siing"/></div>
-                    <h3>Welcome To Join</h3><br/>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit culpa nobis minus earum,
-                        in reprehenderit enim perspiciatis rem nulla cum, 
-                        iure quia sunt explicabo inventore ut tenetur sit totam officia.</p>
-
-                    <div class="signup-btn-11"><button class="signup-btn">Sign Up</button></div>
                 </div>
+                <div class="signup-page"></div>
             </div>
-        </div>
-        <div class="buy-now-sti"><img src="assets/image/5-2-buy-now-png-image.png" alt="" class="buy-now-sticky"></div>
-
-    
+        </section>
     </body>
 </html>
